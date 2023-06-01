@@ -67,7 +67,7 @@ public class OrderDetailsFormPage {
     }
 
     private OrderDetailsFormPage choiceButton(String button) {
-        if (button.equals("Нижняя кнопка")) {
+        if (button.equals("Верхняя кнопка")) {
             // (button.equals("Нижняя кнопка"))
             driver.findElement(orderButtonInHeader).click();
         }
